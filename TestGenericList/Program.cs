@@ -47,6 +47,7 @@ namespace TestGenericList
 
             while (current != null)
             {
+                // вот следующий элемент, который должен быть выдан этим перечислением
                 yield return current.Data;
                 current = current.Next;
             }
