@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGenericList", "TestGenericList\TestGenericList.csproj", "{359260C7-0537-415D-A990-F1BD581DDA4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestGenericList", "TestGenericList\TestGenericList.csproj", "{359260C7-0537-415D-A990-F1BD581DDA4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBank", "TestBank\TestBank.csproj", "{585E0494-57EB-48D9-91DF-5B1ECC6B6DD4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestBank", "TestBank\TestBank.csproj", "{585E0494-57EB-48D9-91DF-5B1ECC6B6DD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBank2", "TestBank2\TestBank2.csproj", "{66ECC2E8-5008-430C-A115-D89F5025AEB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestBank2", "TestBank2\TestBank2.csproj", "{66ECC2E8-5008-430C-A115-D89F5025AEB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestArrayListException", "TestArrayListException\TestArrayListException.csproj", "{7BE28A53-B0A6-4275-93C0-A3995C2C4EB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{66ECC2E8-5008-430C-A115-D89F5025AEB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66ECC2E8-5008-430C-A115-D89F5025AEB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66ECC2E8-5008-430C-A115-D89F5025AEB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BE28A53-B0A6-4275-93C0-A3995C2C4EB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BE28A53-B0A6-4275-93C0-A3995C2C4EB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BE28A53-B0A6-4275-93C0-A3995C2C4EB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BE28A53-B0A6-4275-93C0-A3995C2C4EB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
