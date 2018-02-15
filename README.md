@@ -1,11 +1,11 @@
 # otus-01 Примеры для занятия 1
 
-Универсальные шаблоны и их ограничения 
-Инвариантность, ковариантность и контравариантность
+Универсальные шаблоны и их ограничения.
+Инвариантность, ковариантность и контравариантность.
 
 ## Ссылки
 
-1. [Универсальные шаблоны (Руководство по программированию на C#)] (http://blog.vkuznetsov.ru/posts/2012/04/19/malenkie-chudesa-csharp-net-ogranichenie-universalnyh-tipov-s-pomoshhyu-usloviya-where)
+1. [Универсальные шаблоны (Руководство по программированию на C#)](http://blog.vkuznetsov.ru/posts/2012/04/19/malenkie-chudesa-csharp-net-ogranichenie-universalnyh-tipov-s-pomoshhyu-usloviya-where)
 
 2. [Маленькие чудеса C#/.NET: ограничение универсальных типов с помощью условия where](https://docs.microsoft.com/ru-ru/dotnet/csharp/programming-guide/generics/)
 
