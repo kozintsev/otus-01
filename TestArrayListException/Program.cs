@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace TestArrayListException
 {
@@ -6,6 +8,8 @@ namespace TestArrayListException
     {
         static void Main(string[] args)
         {
+            #region ArrayList test
+
             var list = new ArrayList();
             // Add an integer to the list.
             list.Add(3);
@@ -18,6 +22,35 @@ namespace TestArrayListException
             {
                 t += x;
             }
+
+            #endregion
+
+            #region List test
+
+            // The .NET Framework 2.0 way to create a list
+            var list1 = new List<int>();
+
+            // No boxing, no casting:
+            list1.Add(3);
+
+            // Compile-time error:
+            // list1.Add("It is raining in Redmond.");
+
+            #endregion
+
+            #region Cast to Object
+
+            // The .NET Framework 2.0 way to create a list
+            var list2 = new List<object>();
+
+            // No boxing, no casting:
+            list2.Add(3);
+
+            // Compile-time error:
+            list2.Add("It is raining in Redmond.");
+
+            #endregion
+
         }
     }
 }
